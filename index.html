@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Apostas Esportivas</title>
+    <title>Sorteio Simples</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <header class="header">
-            <h1>Bem-vindo ao Mundo das Apostas Esportivas</h1>
-            <p>Faça suas apostas agora e ganhe grandes prêmios!</p>
+        <header>
+            <h1>Sorteio de Nomes</h1>
+            <p>Digite os nomes abaixo e clique em "Sortear" para ver o vencedor!</p>
         </header>
 
-        <section class="apostas">
-            <h2>Próximos Jogos</h2>
-            <div class="jogo">
-                <p><strong>Time A</strong> vs <strong>Time B</strong></p>
-                <button>Apostar</button>
-            </div>
-            <div class="jogo">
-                <p><strong>Time C</strong> vs <strong>Time D</strong></p>
-                <button>Apostar</button>
-            </div>
-            <!-- Mais jogos podem ser adicionados aqui -->
-        </section>
+        <main>
+            <section class="entrada">
+                <label for="nomes">Insira os nomes (separados por vírgula):</label>
+                <textarea id="nomes" placeholder="Ex: João, Maria, Pedro"></textarea>
+                <button onclick="sortear()">Sortear</button>
+            </section>
 
-        <footer class="footer">
-            <p>© 2025 Apostas Esportivas. Todos os direitos reservados.</p>
+            <section class="resultado">
+                <h2>Vencedor:</h2>
+                <div id="vencedor">Nenhum vencedor ainda.</div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Sorteios Simples. Todos os direitos reservados.</p>
         </footer>
     </div>
+
+    <!-- Inserir JavaScript (opcional, para sorteio funcional) -->
+    <script src="script.js"></script>
 </body>
 </html>
