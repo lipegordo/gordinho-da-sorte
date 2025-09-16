@@ -1,0 +1,77 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container geral do site */
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Cabeçalho do site */
+.header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Seção de apostas */
+.apostas {
+    margin-top: 20px;
+}
+
+.apostas h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.jogo {
+    margin-bottom: 20px;
+}
+
+.jogo p {
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Rodapé */
+.footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #ccc;
+}
